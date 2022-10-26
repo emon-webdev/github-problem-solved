@@ -33,6 +33,17 @@ git remote -v (comfirm your origin)
 
 ```
 
+### Delete node_modules
+
+```js
+
+git rm -r --cached node_modules
+git add .
+git commit -m "removed"
+git push
+
+```
+
 
 
 ### Table
