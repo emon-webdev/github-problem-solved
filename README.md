@@ -3,11 +3,19 @@ Github related any issue solved in this repository.
 
 
 ## List of github problems:
-
+- [GithubCollaboration](#GithubCollaboration)
 - [fataLRemoteOriginAlreadyExists](#fataLRemoteOriginAlreadyExists)
 - [originSetUrl](#originSetUrl)
 
 
+### GithubCollaboration
+
+```js
+Github Collaboration Docs
+step 1:
+
+
+```
 
 ### fataLRemoteOriginAlreadyExists
 
