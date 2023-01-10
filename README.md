@@ -11,8 +11,54 @@ Github related any issue solved in this repository.
 ### GithubCollaboration
 
 ```js
+// change branch
+git checkout (your branch name)
+or
+git pull origin (your branch name)
+
 Github Collaboration Docs
 step 1:
+create repository  
+step 2: 
+echo "# Github-Collaboration" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/emon-webdev/Github-Collaboration.git
+git push -u origin main
+
+step 3: 
+// your cmd
+git checkout -b branchName
+
+// Example
+Emon_Hossain@DESKTOP-GAQCCLA MINGW64 /d/Github Collaboration (main)
+ git checkout -b branchName
+Switched to a new branch 'branchName'
+// branch name (main change branchName)
+Emon_Hossain@DESKTOP-GAQCCLA MINGW64 /d/Github Collaboration (branchName)
+
+step 4: 
+// change code and select branchName than see update
+git push --set-upstream origin branchName
+
+
+step 5:
+Pull requests
+New Pull requests
+base:Main < compare: your branch select
+create pull requests
+again create pull requests
+Merge pull requests
+Confirm Merge
+
+========================
+// Collaboration and workflow
+
+
+
+
 
 
 ```
