@@ -54,9 +54,56 @@ Merge pull requests
 Confirm Merge
 
 ========================
-// Collaboration and workflow
+// Collaboration and workflow (group project access other people)
+
+step 1: 
+create a new repository
+
+step 2:
+//
+add collabortors
+way: 
+your project Settings > COllaborators > Add People (search username / email (demo))
+Click Add people 
+check his(demo) eamil / gitHub notification
+Accept Invitation
+
+step 3:
+//demo works project
+//clone project
+git clone https://github.com/emon-webdev/Github-Collaboration.git
+
+step 4: 
+//create development branch
+git checkout -b development
+git push --set-upstream origin development
+
+step 5:
+//create homepage branch
+git checkout -b homepage/emon
+git push --set-upstream origin homepage/emon
+
+step 5:
+//create loginpage branch
+git checkout -b loginpage/demo
+git push --set-upstream origin loginpage/demo
+
+// সব কিছু development branch রাখতে হবে এবং pull করতে হবে development branch থেকে  main branch এ হাত দিব না
+// development branch থেকে নিলে merge conflict করবে না
+// best practice development branch push/ merge করার আগে development branch থেকে তুমি pull করে নিবা। যাতে 
+কেউ  development branch code update করলে conflict না করে।
+// 
+step 6:
+Pull requests
+New Pull requests
+base:development (অবশ্যই development select korte hobe ) < compare: your branch select (homepage/ loginpage)
 
 
+step 7:
+
+===============================
+Resolving Merge Conflicts
+// same line 2 code 
 
 
 
