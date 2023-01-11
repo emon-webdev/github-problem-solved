@@ -16,7 +16,9 @@ git checkout (your branch name)
 or
 git pull origin (your branch name)
 
-Github Collaboration Docs
+//
+======= Github Collaboration Docs =======
+
 step 1:
 create repository  
 step 2: 
